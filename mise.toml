@@ -1,0 +1,14 @@
+[tools]
+node = "26.13.1"
+
+[tasks.slides]
+usage = '''
+arg "<name>" help="Presentation material name"
+'''
+run = "npm run slides -- ./materials/${usage_name}/slides.md"
+
+[tasks.export]
+usage = '''
+arg "<name>" help="Presentation material name"
+'''
+run = "npm run export -- ./materials/${usage_name}/slides.md --output ./materials/${usage_name}/${usage_name}"
