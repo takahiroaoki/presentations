@@ -1,0 +1,12 @@
+{
+  "name": "presentations",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "open": "slidev --open"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
