@@ -91,8 +91,6 @@ flowchart LR
 
 次の一歩は、今日できるサイズに。
 
-<div class="mt-12 text-sm opacity-60">THANK YOU · QUESTIONS?</div>
-
 ```python {monaco}
 import numpy as np
 
@@ -110,3 +108,5 @@ def AND(
     else:
         return 0
 ```
+
+<div class="abs-br m-6 text-sm opacity-60">THANK YOU · QUESTIONS?</div>
