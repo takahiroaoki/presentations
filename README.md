@@ -2,6 +2,10 @@
 
 Presentation slides scheme using [Slidev](https://ja.sli.dev/).
 
+## requirements
+
+NodeJS or mise
+
 ## how to use
 
 ### setup
