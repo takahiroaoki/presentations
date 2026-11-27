@@ -1,6 +1,12 @@
 [tools]
 node = "26.13.1"
 
+[tasks.new]
+usage = '''
+arg "<name>" help="Presentation material name"
+'''
+run = "cp -r ./materials/_template ./materials/${usage_name}"
+
 [tasks.slides]
 usage = '''
 arg "<name>" help="Presentation material name"
@@ -11,4 +17,4 @@ run = "npm run slides -- ./materials/${usage_name}/slides.md"
 usage = '''
 arg "<name>" help="Presentation material name"
 '''
-run = "npm run export -- ./materials/${usage_name}/slides.md --output ./materials/${usage_name}/${usage_name}"
+run = "npm run export -- ./materials/${usage_name}/slides.md --output ./materials/${usage_name}/exported"

@@ -1,4 +1,4 @@
-# _template
+# README
 
 Contents must be before appearance and presentation materials should be really simple.
 

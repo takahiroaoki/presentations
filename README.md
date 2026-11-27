@@ -31,10 +31,16 @@ Presentation materials should be stored as the following.
 
 ```
 ./materials
-└ ${name}
+└ ${material name}
     └ slides.md
     └ assets/ # image files, etc.
     └ drafts/ # concepts, drafts, etc.
 ```
 
+### prepare new presentation
+
 Please copy `./materials/_template` directory for a new presentation.
+
+```
+$ mise run new ${material name}
+```
