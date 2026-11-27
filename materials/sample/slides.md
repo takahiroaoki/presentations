@@ -1,17 +1,32 @@
 ---
 title: 小さくつくって、早く学ぶ
 titleTemplate: '%s - sample'
-colorSchema: dark
+author: takahiroaoki
+
 theme: default
+presenter: true
+browserExporter: false
+download: false
+exportFileName: exported
+export:
+  format: pdf
+  timeout: 30000
+lineNumbers: true
+record: false
+contextMenu: false
+wakeLock: true
+monaco: false
+
+colorSchema: light
+aspectRatio: 16/9
+canvasWidth: 980
+transition: slide-left
 themeConfig:
   primary: '#2563EB'
 fonts:
-  sans: 'Inter, Noto Sans JP'
+  sans: 'Inter, Noto Sans Japanese'
+  serif: 'Noto Serif, Noto Serif Japanese'
   mono: 'JetBrains Mono'
-css: windicss
-class: text-center
-highlighter: shiki
-transition: slide-left
 ---
 
 # 小さくつくって、
@@ -59,6 +74,10 @@ flowchart LR
 
 小さな一周を、何度も。スピードは学びの回数から生まれる。
 
+<!--
+スライドには表れない発表者むけのノート。
+-->
+
 ---
 
 # まず動くものを見せよう
@@ -68,3 +87,21 @@ flowchart LR
 次の一歩は、今日できるサイズに。
 
 <div class="mt-12 text-sm opacity-60">THANK YOU · QUESTIONS?</div>
+
+```python {monaco}
+import numpy as np
+
+def AND(
+    x1: int,
+    x2: int,
+) -> int:
+    x = np.array([x1, x2])
+    w = np.array([0.5, 0.5])
+    b = -0.8
+    tmp = np.sum(w*x) + b
+
+    if tmp > 0:
+        return 1
+    else:
+        return 0
+```

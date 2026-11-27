@@ -32,7 +32,8 @@ Presentation materials should be stored as the following.
 ./materials
 └ ${name}
     └ slides.md
-    └ ${name}.pdf
     └ assets/
     └ drafts/
+    └ layouts/
+    └ etc.
 ```
