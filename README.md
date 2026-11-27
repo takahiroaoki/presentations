@@ -1,6 +1,6 @@
 # presentations
 
-My presentations slides repository using [Slidev](https://ja.sli.dev/).
+Presentation slides scheme using [Slidev](https://ja.sli.dev/).
 
 ## how to use
 
