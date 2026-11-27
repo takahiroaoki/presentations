@@ -156,5 +156,5 @@ vite.config.ts.timestamp-*
 .nx/workspace-data
 .nx/migrate-runs
 
-# exported files by Slidev
-*.pdf
+# ================ [ Custom ] ================ #
+.DS_Store

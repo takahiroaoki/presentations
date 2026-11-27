@@ -28,12 +28,13 @@ $ mise run export ${material name}
 ### directory structure
 
 Presentation materials should be stored as the following.
+
 ```
 ./materials
 └ ${name}
     └ slides.md
-    └ assets/
-    └ drafts/
-    └ layouts/
-    └ etc.
+    └ assets/ # image files, etc.
+    └ drafts/ # concepts, drafts, etc.
 ```
+
+Please copy `./materials/_template` directory for a new presentation.

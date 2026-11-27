@@ -1,0 +1,4 @@
+/* hide the navigation weget */
+.autocomplete-list {
+    display: none;
+}
