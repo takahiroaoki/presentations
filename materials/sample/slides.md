@@ -64,6 +64,9 @@ fonts:
 
 # 学びのループを回す
 
+<div class="h-4/5 text-align-center flex flex-col flex-justify-around">
+
+<span>
 ```mermaid
 flowchart LR
   A[つくる] --> B[見せる]
@@ -71,8 +74,10 @@ flowchart LR
   C --> D[直す]
   D --> A
 ```
+</span>
 
-小さな一周を、何度も。スピードは学びの回数から生まれる。
+<span>小さな一周を、何度も。スピードは学びの回数から生まれる。</span>
+</div>
 
 <!--
 スライドには表れない発表者むけのノート。
